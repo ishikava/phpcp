@@ -1,0 +1,31 @@
+{
+    "name": "ishikava/phpcp",
+    "description": "This is a Class, that provides base functionality of CryptoPro PHP plugin",
+    "type": "Class",
+    "keywords": ["php", "CryptoPro", "ГОСТ Р 34.10-2012"],
+    "homepage": "https://github.com/ishikava/phpcp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksim Kiselev",
+            "email": "magnumru@yandex.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ishikava/phpcp/issues",
+        "source": "https://github.com/ishikava/phpcp"
+    },
+    "require": {
+        "php": "^7.0",
+        "ext-soap": "*",
+        "ext-zip": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ramsey/uuid": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {"Ishikava\\Phpcp\\": "src/"}
+    }
+}
