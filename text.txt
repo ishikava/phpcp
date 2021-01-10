@@ -138,6 +138,9 @@ eval `/opt/cprocsp/src/doxygen/CSP/../setenv.sh --64`; make -f Makefile.unix
 
 apt install libboost-all-dev
 
+=======================
+задача в том, что нам нужно получить php extension libphpcades.so , но он специфичный для каждой системы
+
 После успешной компиляции должен появиться файл libphpcades.so
 
 Находим папку с экстеншенами php
@@ -154,5 +157,14 @@ service php7.2-fpm restart
 информация о генерации ключей и получении сертификатов вынесены за пределы данной статьи, пожалуйста ознакомьтесь с этой темой самомтоятельно. Информации в интернете предостаточно.
 
 
+=================
+добавить опходчик классов в код и текст (тот закоменченый код которым я искал методы в крипте)
 
+отсылка что лучшебы сделать на нативном php soap сервере. (SAML)
+дать ссылки
+https://github.com/robrichards/xmlseclibs
+https://github.com/Maks3w/xmldsig
 
+==========
+официальный пример использования Расширения CryptoPro для PHP
+https://cpdn.cryptopro.ru/content/cades/phpcades.html
